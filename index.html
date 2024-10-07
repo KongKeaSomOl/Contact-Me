@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Som Ol Kongkea</title>
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/256/9559/9559046.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-image: url(Background.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        backdrop-filter: blur(3px);
+        margin: 0;
+
+        /*OPTIONAL */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        text-align: center;
+        /* background: rgba(
+          255,
+          255,
+          255,
+          0.8
+        ); Semi-transparent white background */
+        /* Blur effect behind the container */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+      }
+
+      h1 {
+        margin-bottom: 20px;
+      }
+
+      .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .button {
+        text-decoration: none;
+        color: white;
+        background-color: #007bff;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin: 5px;
+        display: flex;
+        align-items: center; /* Center the icon and text vertically */
+        transition: background-color 0.3s;
+      }
+
+      .button:hover {
+        background-color: #0056b3;
+      }
+
+      .fb {
+        background-color: #1953d0;
+      }
+      .ig {
+        background-color: #ef284d;
+      }
+      .tg {
+        background-color: #0088cc;
+      }
+      .wc {
+        background-color: #31e11d;
+      }
+      .email {
+        background-color: #df2810;
+      }
+      .phone {
+        background-color: #27a058;
+      }
+
+      .button i {
+        margin-right: 8px; /* Space between icon and text */
+      }
+
+      @media (max-width: 600px) {
+        .button {
+          flex: 1 1 100%; /* Make buttons full width on small screens */
+          margin: 10px 0;
+        }
+      }
+
+      /* Image styles */
+      .profile-image {
+        border-radius: 50%; /* Circular image */
+        width: 150px; /* Adjust as necessary */
+        height: 150px; /* Adjust as necessary */
+        object-fit: cover; /* Ensure the image covers the area */
+        margin-bottom: 20px; /* Space between image and buttons */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="Pf.jpg" alt="Your Name" class="profile-image" />
+      <!-- Add your image here -->
+      <h1 style="color: rgb(10, 9, 17)">Contact with Me</h1>
+      <div class="button-container">
+        <a
+          href="https://www.facebook.com/mrr.yuro.7?mibextid=ZbWKwL"
+          class="button fb"
+          target="_blank"
+          ><i class="fab fa-facebook-f"></i>Facebook</a
+        >
+        <a
+          href="https://www.instagram.com/yoshihiro_170/profilecard/?igsh=M29jZmVrcDdieG5z"
+          class="button ig"
+          target="_blank"
+          ><i class="fab fa-instagram"></i>Instagram</a
+        >
+        <a href="https://t.me/Kongkea_Sml" class="button tg" target="_blank"
+          ><i class="fab fa-telegram"></i>Telegram</a
+        >
+        <a href="wechat.html" class="button wc" target="_blank"
+          ><i class="fab fa-weixin"></i>WeChat</a
+        >
+        <a href="mailto:somolkongkea@gmail.com" class="button email"
+          ><i class="fas fa-envelope"></i>Email</a
+        >
+        <a href="tel:+855 965152572" class="button phone"
+          ><i class="fas fa-phone"></i>Phone</a
+        >
+        <a
+          href="https://pay.ababank.com/jb92DM7FevgwZQzP8"
+          class="button aba"
+          target="_blank"
+          ><i class="fab fa-btc"></i>ABA Bank</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
